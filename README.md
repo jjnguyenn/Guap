@@ -1,3 +1,7 @@
+# Mock Bank App called Guap
+Guap Banking application with (Next.js, tailwind, auth0 db and authentication) created to simulate a Virtual Card
+That does authorization transactions, account center, and updates balance
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
