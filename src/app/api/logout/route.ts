@@ -2,7 +2,8 @@
 import { NextResponse } from "next/server";
 
 export async function POST() {
-  // Clear session-related data in localStorage
+
+  if (typeof window !== "undefined") {
     localStorage.removeItem("access_token");
     localStorage.removeItem("id_token");
     localStorage.removeItem("session");
